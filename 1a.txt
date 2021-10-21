@@ -1,0 +1,28 @@
+1)a) Berechnen Sie die Instabilität und Abstraktheit aller Komponenten (A, B, C, D)
+
+A
+  Fanin: 		0
+  Fanout:		1
+  Instabilität:	0
+  Abstraktheit:	0
+
+
+B
+  Fanin: 		1
+  Fanout:		1
+  Instabilität:	1/2 (0,5)
+  Abstraktheit:	0
+
+
+C
+  Fanin: 		2
+  Fanout:		1
+  Instabilität:	2/3 (0,6666)
+  Abstraktheit:	0
+
+
+D
+  Fanin: 		1
+  Fanout:		1
+  Instabilität:	1/2 (0,5)
+  Abstraktheit:	1/2 (0,5)

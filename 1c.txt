@@ -1,0 +1,14 @@
+1)b) Beschreiben Sie was für die jeweiligen Komponenten (A, B, C, D) hinsichtlich Ihrer
+	 Position im I/Graphen gilt.
+
+A ist maximal instabil (ganz links auf Abszisse) und maximal unabstrakt ( ganz unten auf 
+Ordinate). A befindet sich daher komplett in der Zone of Pain
+
+B ist mittel stabil, daher genau auf der Hälfte der Abszisse. Da es aber maximal unabstrakt
+ist, befindet es sich in der Zone of Pain. 
+
+C ist eher stabil (auf 2/3 der Abszisse), daher ist es trotz maximaler Unabstraktheit nicht
+mehr in der Zone of Pain
+
+D ist mittel stabil und mittel abstrakt (Mitte der Ordinate), daher genau auf der Mitte 
+	der Hauptlinie.

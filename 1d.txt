@@ -1,0 +1,20 @@
+Die Komponenten sind, bis auf D alle auf der Instabilitätsachse, das heißt sie sind alle 
+0 abstrakt, Sie beinhalten also keine abstrakten Klassen/Interfaces
+
+
+-Stable-Abstractions-Prinzip (SAP) 
+erfüllt für A und D, nicht erfüllt für B und C
+Im Großen und ganzen eher nicht erfüllt.
+
+-Acyclic Depencies Prinzip (ADP)
+nicht erfüllt: B hängt von C ab, C von D und D wieder von B
+
+-Stable-Dependencies-Prinzip (SDP)
+A von C abhängig, C ist stabiler wie A -> SDP erfüllt
+B von C abhängig, C ist stabiler wie B -> SDP erfüllt
+
+C von D abhängig, C ist stabiler wie D -> SDP nicht erfüllt
+B von D abhängig, gleich stabil -> mittelmäßig
+
+Im Großen und ganzen DSDP eher erfüllt
+
