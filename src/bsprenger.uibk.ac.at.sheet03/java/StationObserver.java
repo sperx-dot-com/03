@@ -1,4 +1,4 @@
-public class IVBStation extends RentalService {
+public class StationObserver extends RentalService {
 
     private Station station;
 

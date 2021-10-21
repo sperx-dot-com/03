@@ -1,4 +1,3 @@
-
 public class ConcreteSubscriber implements Subscriber{
 
    private String name;
@@ -6,7 +5,6 @@ public class ConcreteSubscriber implements Subscriber{
     public ConcreteSubscriber(String name) {
         this.name = name;
     }
-
 
     @Override
     public void update(Station station) {

@@ -11,8 +11,9 @@ public class Station {
         return numberFreeBikes;
     }
 
-    public void setNumberFreeBikes(int numberFreeBikes) {
-        this.numberFreeBikes = numberFreeBikes;
+    public void rentBike() throws ArithmeticException {
+        if (this.numberFreeBikes==0){throw new ArithmeticException("No Bike available at this station");}
+        else {this.numberFreeBikes--;}
     }
 
     public int getStationID() {
@@ -22,4 +23,5 @@ public class Station {
     public void setStationID(int stationID) {
         this.stationID = stationID;
     }
+
 }
